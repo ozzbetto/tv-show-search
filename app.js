@@ -23,7 +23,6 @@ const makeImages = (shows) => {
 
 resetImages = () => {
     const images = document.querySelectorAll('img');
-
     for(let eachImage of images) {
         eachImage.remove();
     }
